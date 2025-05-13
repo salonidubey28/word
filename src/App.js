@@ -130,9 +130,9 @@ const GFGWordGame = () => {
 
     const guessFunction = () => {
         if (checkWordGuessedFunction()) {
-            setMsg("Congo Geek! You have guessed the word correctly!");
+            setMsg("Congrats!🥳 You have guessed the word correctly!");
         } else {
-            setMsg("You made a Wrong Guess Geek!. Try again!");
+            setMsg("You made a Wrong Guess bro😥!. Try again!");
             setDisplayWord(true);
         }
     };
@@ -149,7 +149,7 @@ const GFGWordGame = () => {
 
     return (
         <div className="container">
-            <h1>GeeksforGeeks Word Guess Game</h1>
+            <h1>DevWords by Saloni</h1>
             <div className="word-container">
                 {Array.from(wordData.word).map((letter, index) => (
                     <div
